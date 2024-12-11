@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/script.js" defer></script>
+    <title>Shortest Path Finder by bilal_152828</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shortest Path Finder by bilal_152828</h1>
+        <form id="input-form">
+            <label for="cities">Enter Cities (comma-separated):</label>
+            <input type="text" id="cities" name="cities" required>
+            
+            <label for="distances">Enter Distances (Format: city1,city2,distance) one line at the time:</label>
+            <textarea id="distances" name="distances" required></textarea>
+            
+            <label for="start">Starting City:</label>
+            <input type="text" id="start" name="start" required>
+            
+            <label for="goal">Goal City:</label>
+            <input type="text" id="goal" name="goal" required>
+            
+            <button type="submit">Solve</button>
+        </form>
+        <div id="output"></div>
+    </div>
+</body>
+</html>
